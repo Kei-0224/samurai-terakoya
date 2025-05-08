@@ -1,0 +1,32 @@
+PS C:\Users\piplu> cd C:\Users\piplu\Downloads\git_kadai\git_challenge
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/piplu/Downloads/git_kadai/git_challenge/.git/
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> git add hello_world.txt
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> git commit -m "Hello, world!"
+[main (root-commit) 86d2a87] Hello, world!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> git log --oneline
+86d2a87 (HEAD -> main) Hello, world!
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> git add .
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> git commit -m "こんにちは、世界！"
+[main 1f28581] こんにちは、世界！
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> git log --oneline   
+1f28581 (HEAD -> main) こんにちは、世界！
+86d2a87 Hello, world!
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge>  mkdir kadai_005
+
+
+    ディレクトリ: C:\Users\piplu\Downloads\git_kadai\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/05/08     15:27                kadai_005
+
+
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge> cd C:\Users\piplu\Downloads\git_kadai\git_challenge\kadai_005
+PS C:\Users\piplu\Downloads\git_kadai\git_challenge\kadai_005> git add kadai_005.txt
