@@ -9,6 +9,7 @@ body {
 #menu-sp{
 float: right;
 padding	:0;
+display: block;
 }
 
 #nav-sp{
@@ -17,9 +18,12 @@ padding	:0;
   top: 0px;
   left: 0px;
   height: 100%;
-  width:100%;
+  width:100%
+}
+
+#nav-sp{
   display: none;
-  z-index: 100;
+  z-index:100; 
 }
 
 #nav-sp ul{
@@ -40,45 +44,33 @@ padding	:0;
   margin:80px 0px 30px 20px;
 }
 
-#nav-sp a{
-   display:block;
+#nav-sp a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-#nav-spa:link{
-  color:#ffffff;
-}
 
-#nav-spa{
-  color:#ffffff
-}
-
-#nav-spa:hover{
-   color:#ffffff;
+.menu:hover{
    text-decoration:underline;
 }
 
-#nav-spa:active{
-  color:#ffffff;
-}
 
-#nav-sp.menu{
-  text-decoration:none;
-  display: none;
+.menu{
   height:44px;
   font-size:16px;
   background-image:url("images/arrow.png");
   background-repeat: no-repeat;
   background-position:right top;
-  margin{
-    left:20px;
-    right: 20px;
-  }
+  margin-left: 20px;
+  margin-right: 20px;
 }
- #menu-sp{
+ .menu{
     display: none;
   }
 
-  #nav-sp{
-     display: none;
-  }
 
+#main-visual img {
+  max-width: 100%;
+  height: auto;
+}
