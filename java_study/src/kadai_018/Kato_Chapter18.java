@@ -2,34 +2,37 @@ package kadai_018;
 
 public  abstract class Kato_Chapter18 {
 	
-	public String familyName;
+	public String familyName = "加藤";
 	
-	public String givenName;
+	public String givenName ="";
 	
-	public String addresName;
+	public String address = "東京都中野区〇×";
 	
-	 public void setGivenName(String name) {
-	        this.givenName = name;
-	    }
 	
-	 
-	public void  commonIntroduce() {
-		System.out.println("名前は" + familyName + givenName + "です");
-		System.out.println("住所は" + addresName  + "です");
-			 
+	public void commonIntroduce(){	
+		System.out.println("名前は" + this.familyName + this.givenName + "です");
+	
+		System.out.println("住所は" + this.address + "です" );
+	
 	}
-		public abstract void eachIntroduce();
+	
+	abstract public  void eachIntroduce();
+	
+	public void execIntroduce() {
 		
-	    public void execIntroduce() {
-	    	
-	     commonIntroduce();
-	     
-	     eachIntroduce();
-	     
-	    }
+		this.commonIntroduce();
+		
+		this.eachIntroduce();
+		
+		
+		
+		
+	}
+	  
+ }
 	 
 	    	 
-	     }
+	 
 	     
 	     
 
